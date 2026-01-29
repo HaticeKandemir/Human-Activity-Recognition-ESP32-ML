@@ -1,0 +1,3 @@
+Model,Accuracy,F1_Score,Train_Time_Sec,Inference_Latency_Sec,Best_Params
+CNN,0.8876500857632933,0.8870194635639277,44.73813509941101,0.0003045447694703195,"{'kernel_size': 3, 'filters_1': 128, 'dropout': 0.4, 'filters_2': 128, 'dense_units': 96, 'learning_rate': 0.001}"
+LSTM,0.9082332761578045,0.9083215707447528,161.98259806632996,0.0006848299687354478,"{'lstm_units_1': 128, 'dropout': 0.2, 'lstm_units_2': 128, 'dense_units': 64, 'learning_rate': 0.001}"

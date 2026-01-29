@@ -1,0 +1,12 @@
+# Dataset (Privacy)
+human_activity/
+
+# Temporary Data
+processed_data/*.npy
+processed_data/*.pkl
+tuner_results/
+
+# System Files
+.DS_Store
+__pycache__/
+*.log

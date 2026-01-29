@@ -1,0 +1,4 @@
+Model,Accuracy,F1_Score,Train_Time_Sec,Inference_Latency_Sec,Best_Params
+Random_Forest,0.9090909090909091,0.9096441840781235,23.823862075805664,1.959857973389928e-05,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 200}"
+XGBoost,0.9245283018867925,0.9251173334911221,28.130178928375244,6.16309982221286e-06,"{'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 200, 'subsample': 0.8}"
+AdaBoost,0.7281303602058319,0.7346767750497757,11.964134931564331,2.477528913965765e-05,"{'learning_rate': 1.0, 'n_estimators': 200}"
